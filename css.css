@@ -1,0 +1,50 @@
+@charset "utf-8";
+@font-face {
+    font-family: KiwiMaru;
+    src: url("./fonts/KiwiMaru-Medium.ttf") format("truetype");
+}
+
+body{
+    line-height: 1.6;
+    font-family: "KiwiMaru", sans-serif;
+    background-color: #e36414;
+    color: #9d450e;
+    margin: 0;
+}
+
+header{
+    background-color: #9a031e;
+    color: #fb8b24;
+    padding: 1em;
+    text-align: center;
+}
+
+
+main{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e36414;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rbga(0, 0, 0, 0.1);
+}
+
+footer{
+    text-align: center;
+    padding: 1em;
+    background-color:#5f0f40;
+    color: #9a8f96;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.box{
+    width: 80%;
+    padding: 5px 20px 5px 20px;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 4px 4px 0px rgb(161, 161, 161);
+    background-color: rgb(248, 240, 240);
+    margin: 30px 30px 30px 30px;
+}
